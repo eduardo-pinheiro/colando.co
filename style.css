@@ -16,7 +16,7 @@ h2 {
 
 .container {
   width: calc(100% - 40px);
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
 .flex-horizontal {
@@ -40,8 +40,8 @@ section.col-6 {
   margin-right: 5px;
 }
 
-.border-left {
-  border-left: 0.5px solid #86AFEC;
+.border-right {
+  border-right: 0.5px solid #86AFEC;
 }
 
 
