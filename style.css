@@ -70,7 +70,7 @@ header .logo {
 
 .button.call-to-action {
   box-shadow: none;
-  width: 270px;
+  width: 220px;
   border: none;
   background: #180F54;
   color: white;
@@ -167,7 +167,7 @@ header .logo {
   background-color: #ffffff;
   border-radius: 15px;
   font-size: 20px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .modal .wrapper section .header {
@@ -225,4 +225,47 @@ header .logo {
 
 .modal.get-lead-modal .wrapper .button.call-to-action {
   margin-top: -15px;
+}
+
+
+
+
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 800px) {
+
+  .flex-horizontal {
+    flex-direction: column;
+  }
+
+  section.col-6 {
+    width: 100%;
+  }
+
+  section.university-list {
+    border: none!important;
+  }
+
+  .col-6.margin-left {
+    display: none;
+  }
+
+  body {
+    font-size: 11px;
+  }
+
+  .button {
+    width: 100px;
+  }
+
+  .button.call-to-action {
+    width: 130px;
+  }
+
+  .modal.get-lead-modal .wrapper .button.call-to-action {
+    font-size: 12px;
+  }
 }
