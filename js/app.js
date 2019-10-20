@@ -1,23 +1,29 @@
 function openCourseModal(index) {
-    console.log("openCourseModal");
+    let domNode = document.querySelector(`[data-course-index='${index}']`);
+    domNode.style = "display: flex!important";
 }
 
 function closeCourseModal(index) {
-    console.log("closeCourseModal");
+    let domNode = document.querySelector(`[data-course-index='${index}']`);
+    domNode.style = "display: inherit";
 }
 
 function openUniversityModal(index) {
-    console.log("openUniversityModal");
+    let domNode = document.querySelector(`[data-university-index='${index}']`);
+    domNode.style = "display: flex!important";
 }
 
 function closeUniversityModal(index) {
-    console.log("closeUniversityModal");
+    let domNode = document.querySelector(`[data-university-index='${index}']`);
+    domNode.style = "display: inherit";
 }
 
 function closeModalLead() {
-    console.log("closeModalLead");
+    let domNode = document.querySelector('.get-lead-modal');
+    domNode.style = "display: inherit";
 }
 
 function openModalLead() {
-    console.log("openModalLead");
+    let domNode = document.querySelector('.get-lead-modal');
+    domNode.style = "display: flex!important";
 }

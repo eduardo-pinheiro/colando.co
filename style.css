@@ -146,14 +146,13 @@ header .logo {
 
 /*Modais*/
 .modal {
-  display: none!important;
   position: fixed;
+  display: none!important;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(24, 15, 84, 0.7);
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -163,7 +162,7 @@ header .logo {
   width: calc(100vw - 40px);
   max-width: 750px;
   height: calc(100vh - 40px);
-  max-height: 650px;
+  max-height: 550px;
   padding: 15px;
   background-color: #ffffff;
   border-radius: 15px;
@@ -208,7 +207,7 @@ header .logo {
 
 
 /*Modal Get Lead*/
-.modal.get-lead .wrapper {
+.modal.get-lead-modal .wrapper {
   max-height: 273px;
   max-width: 350px;
   display: flex;
@@ -217,13 +216,13 @@ header .logo {
   justify-content: space-around;
 }
 
-.modal.get-lead .wrapper p {
+.modal.get-lead-modal .wrapper p {
   margin-bottom: 0;
   margin-top: -15px;
   font-weight: bold;
   color: #180F54
 }
 
-.modal.get-lead .wrapper .button.call-to-action {
+.modal.get-lead-modal .wrapper .button.call-to-action {
   margin-top: -15px;
 }
