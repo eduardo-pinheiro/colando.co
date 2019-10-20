@@ -14,6 +14,10 @@ h2 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: calc(100% - 40px);
   max-width: 1300px;
@@ -199,4 +203,27 @@ header .logo {
   right: 15px;
   font-weight: bold;
   cursor: pointer;
+}
+
+
+
+/*Modal Get Lead*/
+.modal.get-lead .wrapper {
+  max-height: 273px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal.get-lead .wrapper p {
+  margin-bottom: 0;
+  margin-top: -15px;
+  font-weight: bold;
+  color: #180F54
+}
+
+.modal.get-lead .wrapper .button.call-to-action {
+  margin-top: -15px;
 }
